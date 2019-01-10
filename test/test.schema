@@ -1,0 +1,4 @@
+a required (int) default=5;
+b optional (group) {
+	test optional (string);
+};

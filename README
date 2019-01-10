@@ -1,0 +1,30 @@
+====================
+HOW TO BUILD (Linux)
+====================
+
+Make sure the following packages are installed before building CConfig:
+- gcc
+- make
+- cmake
+- boost
+
+To issue a build simply use the master Makefile in the distribution's root directory
+with parameter 'release' or 'debug':
+
+$ make release
+
+OR
+
+$ make debug
+
+==============================
+HOW TO BUILD (other platforms)
+==============================
+
+CConfig should be perfectly portable to other platforms (not tested though). Just
+use your favourite compiler or IDE to build.
+
+Make sure to set the include directories correctly. CConfig needs the following
+additional include dir set:
+
+antlr/include
